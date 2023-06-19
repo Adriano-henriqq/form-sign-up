@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+  <section class="container">
+    <div class="container__textos">
+    <h1 class="container__titulo">Learn to code by watching others</h1>
+    <p class="container__paragrafo">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>
+    </div>
+      <div class="container__div">
+      <a href="" class="container__link"><strong>Try it free 7 days</strong> then $20/mo. thereafter</a>
+      <form action="" class="container__form">
+        <input class="form__input" id="nome" type="text" placeholder="First Name" data-input >
+        <span class="texto-erro">First name cannot be empty</span>
+        <input class="form__input" id="segundo_nome" type="text" placeholder="Last Name" data-input>
+        <span class="texto-erro">Second Name cannot be empty</span>
+        <input class="form__input" id="email" type="email" placeholder="Email Address" data-input>
+        <span class="texto-erro" data-erro>look like this not an email</span>
+        <input class="form__input" id="senha"  type="password" placeholder=" Password" data-input>
+        <span class="texto-erro"> Password cannot be empty</span>
+        <button class="botao__envio" id="botao">Claim your free trial</button>
+        <div >
+        <p class="form__termo">By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
+      </div>
+      </form>
+    </div>
+  </section>
+</main>
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Adriano Henrique</a>.
+    </p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
